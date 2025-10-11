@@ -1,0 +1,1 @@
+/home/raft-controller/Rpi_Ard_ser/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_unregister_ext_component_s.c

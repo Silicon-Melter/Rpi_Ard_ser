@@ -1,0 +1,131 @@
+[0.753s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.753s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbb306890>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbb49f820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbb49f820>>, mixin_verb=('build',))
+[2.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.142s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/raft-controller/Rpi_Ard_ser'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_mav_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_mav_pkg) by extension 'ignore'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_mav_pkg) by extension 'ignore_ament_install'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_mav_pkg) by extensions ['colcon_pkg']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_mav_pkg) by extension 'colcon_pkg'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_mav_pkg) by extensions ['colcon_meta']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_mav_pkg) by extension 'colcon_meta'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_mav_pkg) by extensions ['ros']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_mav_pkg) by extension 'ros'
+[2.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_mav_pkg' with type 'ros.ament_python' and name 'my_mav_pkg'
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.416s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/raft-controller/Rpi_Ard_ser/install
+[2.428s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[2.437s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.708s] Level 5:colcon.colcon_core.verb:set package 'my_mav_pkg' build argument 'cmake_args' from command line to 'None'
+[2.708s] Level 5:colcon.colcon_core.verb:set package 'my_mav_pkg' build argument 'cmake_target' from command line to 'None'
+[2.708s] Level 5:colcon.colcon_core.verb:set package 'my_mav_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.708s] Level 5:colcon.colcon_core.verb:set package 'my_mav_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.708s] Level 5:colcon.colcon_core.verb:set package 'my_mav_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.709s] Level 5:colcon.colcon_core.verb:set package 'my_mav_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.709s] Level 5:colcon.colcon_core.verb:set package 'my_mav_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.709s] Level 5:colcon.colcon_core.verb:set package 'my_mav_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.709s] Level 5:colcon.colcon_core.verb:set package 'my_mav_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.709s] DEBUG:colcon.colcon_core.verb:Building package 'my_mav_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg', 'merge_install': False, 'path': '/home/raft-controller/Rpi_Ard_ser/src/my_mav_pkg', 'symlink_install': True, 'test_result_base': None}
+[2.710s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.716s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raft-controller/Rpi_Ard_ser/src/my_mav_pkg' with build type 'ament_python'
+[2.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_mav_pkg', 'ament_prefix_path')
+[2.731s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/hook/ament_prefix_path.ps1'
+[2.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/hook/ament_prefix_path.dsv'
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/hook/ament_prefix_path.sh'
+[2.746s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.746s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.703s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raft-controller/Rpi_Ard_ser/src/my_mav_pkg'
+[4.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg': PYTHONPATH=/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/build --no-deps symlink_data
+[10.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_mav_pkg', 'pythonpath_develop')
+[10.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/share/my_mav_pkg/hook/pythonpath_develop.ps1'
+[10.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg' returned '0': PYTHONPATH=/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/build --no-deps symlink_data
+[10.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/share/my_mav_pkg/hook/pythonpath_develop.dsv'
+[10.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/share/my_mav_pkg/hook/pythonpath_develop.sh'
+[10.836s] Level 1:colcon.colcon_core.environment:checking '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg' for CMake module files
+[10.840s] Level 1:colcon.colcon_core.environment:checking '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg' for CMake config files
+[10.845s] Level 1:colcon.colcon_core.environment:checking '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib'
+[10.846s] Level 1:colcon.colcon_core.environment:checking '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/bin'
+[10.847s] Level 1:colcon.colcon_core.environment:checking '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/pkgconfig/my_mav_pkg.pc'
+[10.848s] Level 1:colcon.colcon_core.environment:checking '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages'
+[10.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_mav_pkg', 'pythonpath')
+[10.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/hook/pythonpath.ps1'
+[10.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/hook/pythonpath.dsv'
+[10.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/hook/pythonpath.sh'
+[10.860s] Level 1:colcon.colcon_core.environment:checking '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/bin'
+[10.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_mav_pkg)
+[10.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/package.ps1'
+[10.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/package.dsv'
+[10.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/package.sh'
+[10.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/package.bash'
+[10.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/package.zsh'
+[10.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/colcon-core/packages/my_mav_pkg)
+[10.889s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.892s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.925s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.925s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.926s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.005s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.007s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raft-controller/Rpi_Ard_ser/install/local_setup.ps1'
+[11.014s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raft-controller/Rpi_Ard_ser/install/_local_setup_util_ps1.py'
+[11.024s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raft-controller/Rpi_Ard_ser/install/setup.ps1'
+[11.033s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raft-controller/Rpi_Ard_ser/install/local_setup.sh'
+[11.038s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raft-controller/Rpi_Ard_ser/install/_local_setup_util_sh.py'
+[11.044s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raft-controller/Rpi_Ard_ser/install/setup.sh'
+[11.051s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raft-controller/Rpi_Ard_ser/install/local_setup.bash'
+[11.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raft-controller/Rpi_Ard_ser/install/setup.bash'
+[11.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raft-controller/Rpi_Ard_ser/install/local_setup.zsh'
+[11.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raft-controller/Rpi_Ard_ser/install/setup.zsh'

@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.002110] (my_mav_pkg) JobQueued: {'identifier': 'my_mav_pkg', 'dependencies': OrderedDict()}
+[0.003054] (my_mav_pkg) JobStarted: {'identifier': 'my_mav_pkg'}
+[0.098740] (-) TimerEvent: {}
+[0.199606] (-) TimerEvent: {}
+[0.300657] (-) TimerEvent: {}
+[0.401887] (-) TimerEvent: {}
+[0.502783] (-) TimerEvent: {}
+[0.603661] (-) TimerEvent: {}
+[0.704508] (-) TimerEvent: {}
+[0.805356] (-) TimerEvent: {}
+[0.906201] (-) TimerEvent: {}
+[1.007115] (-) TimerEvent: {}
+[1.107899] (-) TimerEvent: {}
+[1.208718] (-) TimerEvent: {}
+[1.309562] (-) TimerEvent: {}
+[1.410344] (-) TimerEvent: {}
+[1.511139] (-) TimerEvent: {}
+[1.611996] (-) TimerEvent: {}
+[1.712877] (-) TimerEvent: {}
+[1.813748] (-) TimerEvent: {}
+[1.914797] (-) TimerEvent: {}
+[2.016335] (-) TimerEvent: {}
+[2.117190] (-) TimerEvent: {}
+[2.218051] (-) TimerEvent: {}
+[2.319006] (-) TimerEvent: {}
+[2.421381] (-) TimerEvent: {}
+[2.522748] (-) TimerEvent: {}
+[2.623609] (-) TimerEvent: {}
+[2.724533] (-) TimerEvent: {}
+[2.825373] (-) TimerEvent: {}
+[2.926225] (-) TimerEvent: {}
+[3.027056] (-) TimerEvent: {}
+[3.127898] (-) TimerEvent: {}
+[3.228750] (-) TimerEvent: {}
+[3.329580] (-) TimerEvent: {}
+[3.430440] (-) TimerEvent: {}
+[3.531243] (-) TimerEvent: {}
+[3.632068] (-) TimerEvent: {}
+[3.732911] (-) TimerEvent: {}
+[3.833842] (-) TimerEvent: {}
+[3.934855] (-) TimerEvent: {}
+[4.035795] (-) TimerEvent: {}
+[4.136608] (-) TimerEvent: {}
+[4.237499] (-) TimerEvent: {}
+[4.339149] (-) TimerEvent: {}
+[4.402881] (my_mav_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'raft-controller', 'SSH_CLIENT': '10.26.6.217 49607 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/raft-controller/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/raft-controller/Rpi_Ard_ser/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/raft-controller/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/raft-controller', 'OLDPWD': '/home/raft-controller/.vscode-server', 'TERM_PROGRAM_VERSION': '1.98.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b4b74aa4-4c7d-4bbf-ac3c-1755df3c3d0d.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/raft-controller/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/raft-controller/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/raft-controller/Rpi_Ard_ser/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'raft-controller', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '20', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/raft-controller/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'th_TH.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3ac985f3a0.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg:/home/raft-controller/Rpi_Ard_ser/install/px4_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.26.6.217 49607 10.26.5.19 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg:/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:/home/raft-controller/Rpi_Ard_ser/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/raft-controller/Rpi_Ard_ser/install/px4_msgs'}, 'shell': False}
+[4.439332] (-) TimerEvent: {}
+[4.540310] (-) TimerEvent: {}
+[4.641215] (-) TimerEvent: {}
+[4.742064] (-) TimerEvent: {}
+[4.842893] (-) TimerEvent: {}
+[4.943797] (-) TimerEvent: {}
+[5.044635] (-) TimerEvent: {}
+[5.145469] (-) TimerEvent: {}
+[5.246351] (-) TimerEvent: {}
+[5.347128] (-) TimerEvent: {}
+[5.448019] (-) TimerEvent: {}
+[5.548833] (-) TimerEvent: {}
+[5.649686] (-) TimerEvent: {}
+[5.750530] (-) TimerEvent: {}
+[5.851428] (-) TimerEvent: {}
+[5.952397] (-) TimerEvent: {}
+[6.053279] (-) TimerEvent: {}
+[6.154034] (-) TimerEvent: {}
+[6.254920] (-) TimerEvent: {}
+[6.355960] (-) TimerEvent: {}
+[6.422220] (my_mav_pkg) StdoutLine: {'line': b'running develop\n'}
+[6.456149] (-) TimerEvent: {}
+[6.557083] (-) TimerEvent: {}
+[6.658366] (-) TimerEvent: {}
+[6.759209] (-) TimerEvent: {}
+[6.860064] (-) TimerEvent: {}
+[6.960922] (-) TimerEvent: {}
+[7.061812] (-) TimerEvent: {}
+[7.162748] (-) TimerEvent: {}
+[7.263596] (-) TimerEvent: {}
+[7.364401] (-) TimerEvent: {}
+[7.465219] (-) TimerEvent: {}
+[7.566247] (-) TimerEvent: {}
+[7.667205] (-) TimerEvent: {}
+[7.768097] (-) TimerEvent: {}
+[7.869038] (-) TimerEvent: {}
+[7.895233] (my_mav_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.897764] (my_mav_pkg) StdoutLine: {'line': b'writing my_mav_pkg.egg-info/PKG-INFO\n'}
+[7.898602] (my_mav_pkg) StdoutLine: {'line': b'writing dependency_links to my_mav_pkg.egg-info/dependency_links.txt\n'}
+[7.901056] (my_mav_pkg) StdoutLine: {'line': b'writing entry points to my_mav_pkg.egg-info/entry_points.txt\n'}
+[7.901769] (my_mav_pkg) StdoutLine: {'line': b'writing requirements to my_mav_pkg.egg-info/requires.txt\n'}
+[7.902557] (my_mav_pkg) StdoutLine: {'line': b'writing top-level names to my_mav_pkg.egg-info/top_level.txt\n'}
+[7.911644] (my_mav_pkg) StdoutLine: {'line': b"reading manifest file 'my_mav_pkg.egg-info/SOURCES.txt'\n"}
+[7.915807] (my_mav_pkg) StdoutLine: {'line': b"writing manifest file 'my_mav_pkg.egg-info/SOURCES.txt'\n"}
+[7.924015] (my_mav_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[7.930381] (my_mav_pkg) StdoutLine: {'line': b'Creating /home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my-mav-pkg.egg-link (link to .)\n'}
+[7.934809] (my_mav_pkg) StdoutLine: {'line': b'Installing pose_listener script to /home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/my_mav_pkg\n'}
+[7.941800] (my_mav_pkg) StdoutLine: {'line': b'\n'}
+[7.946676] (my_mav_pkg) StdoutLine: {'line': b'Installed /home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg\n'}
+[7.953322] (my_mav_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[7.969432] (-) TimerEvent: {}
+[8.071308] (-) TimerEvent: {}
+[8.105804] (my_mav_pkg) CommandEnded: {'returncode': 0}
+[8.171490] (-) TimerEvent: {}
+[8.189934] (my_mav_pkg) JobEnded: {'identifier': 'my_mav_pkg', 'rc': 0}
+[8.193761] (-) EventReactorShutdown: {}
