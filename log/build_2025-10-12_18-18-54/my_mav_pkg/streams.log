@@ -1,0 +1,25 @@
+[3.175s] Invoking command in '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg': PYTHONPATH=/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/build --no-deps symlink_data
+[4.573s] running develop
+[5.514s] running egg_info
+[5.515s] creating my_mav_pkg.egg-info
+[5.515s] writing my_mav_pkg.egg-info/PKG-INFO
+[5.517s] writing dependency_links to my_mav_pkg.egg-info/dependency_links.txt
+[5.517s] writing entry points to my_mav_pkg.egg-info/entry_points.txt
+[5.518s] writing requirements to my_mav_pkg.egg-info/requires.txt
+[5.518s] writing top-level names to my_mav_pkg.egg-info/top_level.txt
+[5.520s] writing manifest file 'my_mav_pkg.egg-info/SOURCES.txt'
+[5.527s] reading manifest file 'my_mav_pkg.egg-info/SOURCES.txt'
+[5.530s] writing manifest file 'my_mav_pkg.egg-info/SOURCES.txt'
+[5.537s] running build_ext
+[5.538s] Creating /home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my-mav-pkg.egg-link (link to .)
+[5.542s] 
+[5.543s] Installed /home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg
+[5.543s] running symlink_data
+[5.544s] creating /home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index
+[5.544s] creating /home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index/resource_index
+[5.545s] creating /home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index/resource_index/packages
+[5.545s] symbolically linking /home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/resource/my_mav_pkg -> /home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index/resource_index/packages
+[5.546s] symbolically linking /home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/package.xml -> /home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg
+[5.547s] creating /home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/launch
+[5.548s] symbolically linking /home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/my_mav_pkg/launch/realsense_ws.launch.py -> /home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/launch
+[5.688s] Invoked command in '/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg' returned '0': PYTHONPATH=/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft-controller/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg/build --no-deps symlink_data

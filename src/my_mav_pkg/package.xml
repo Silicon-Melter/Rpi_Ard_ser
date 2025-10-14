@@ -3,13 +3,24 @@
 <package format="3">
   <name>my_mav_pkg</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>MAVROS utilities + RealSense → WebSocket launcher</description>
   <maintainer email="raft-controller@todo.todo">raft-controller</maintainer>
-  <license>TODO: License declaration</license>
+  <license>MIT</license>
 
-  <depend>rclpy</depend>
-  <depend>px4_msgs</depend>
+  <!-- Core runtime deps -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>px4_msgs</exec_depend>
 
+  <!-- Needed to use .launch.py files -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <!-- RealSense + Foxglove (installed via apt) -->
+  <exec_depend>realsense2_camera</exec_depend>
+  <exec_depend>realsense2_description</exec_depend>
+  <exec_depend>foxglove_bridge</exec_depend>
+
+  <!-- Tests (optional) -->
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

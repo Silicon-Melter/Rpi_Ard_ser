@@ -1,1 +1,0 @@
-/home/raft-controller/Rpi_Ard_ser/src/px4_msgs/msg/TiltrotorExtraControls.msg

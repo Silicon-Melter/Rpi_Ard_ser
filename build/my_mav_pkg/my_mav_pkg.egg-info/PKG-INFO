@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: my-mav-pkg
 Version: 0.0.0
-Summary: MAVROS pose subscriber
+Summary: RealSense + WebSocket launcher
 Home-page: UNKNOWN
 Maintainer: raft-controller
 Maintainer-email: raft-controller@todo.todo

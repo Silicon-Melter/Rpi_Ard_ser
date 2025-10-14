@@ -1,1 +1,0 @@
-/home/raft-controller/Rpi_Ard_ser/build/px4_msgs/rosidl_generator_cpp/px4_msgs/msg/detail/fixed_wing_lateral_guidance_status__struct.hpp

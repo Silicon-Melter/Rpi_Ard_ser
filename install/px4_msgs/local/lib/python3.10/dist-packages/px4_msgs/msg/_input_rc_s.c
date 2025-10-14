@@ -1,1 +1,0 @@
-/home/raft-controller/Rpi_Ard_ser/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_input_rc_s.c

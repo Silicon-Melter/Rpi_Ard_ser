@@ -1,1 +1,1 @@
-px4_msgs:rclpy
+foxglove_bridge:launch:launch_ros:px4_msgs:rclpy:realsense2_camera:realsense2_description

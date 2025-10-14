@@ -13,7 +13,7 @@ class PoseListener(Node):
         # === Serial port setup ===
         try:
             self.serial_port = serial.Serial('/dev/ttyUSB0', 115200, timeout=1)
-            self.get_logger().info('Serial connected on /dev/ttyACM0')
+            self.get_logger().info('Serial connected on /dev/ttyUSB0')
         except Exception as e:
             self.serial_port = None
             self.get_logger().error(f'Failed to open serial: {e}')

@@ -1,4 +1,6 @@
 from setuptools import setup
+import os
+from glob import glob
 
 package_name = 'my_mav_pkg'
 
@@ -10,17 +12,18 @@ setup(
         ('share/ament_index/resource_index/packages',
          ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', glob('my_mav_pkg/launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='raft-controller',
     maintainer_email='raft-controller@todo.todo',
-    description='MAVROS pose subscriber',
+    description='RealSense + WebSocket launcher',
     license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'pose_listener = my_mav_pkg.pose_listener:main',
+            # (no nodes needed for this)
         ],
     },
 )

@@ -1,1 +1,0 @@
-/home/raft-controller/Rpi_Ard_ser/build/px4_msgs/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/fixed_wing_lateral_status__rosidl_typesupport_fastrtps_cpp.hpp
