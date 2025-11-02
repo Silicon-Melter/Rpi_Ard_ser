@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.001221] (my_mav_pkg) JobQueued: {'identifier': 'my_mav_pkg', 'dependencies': OrderedDict()}
+[0.001441] (my_mav_pkg) JobStarted: {'identifier': 'my_mav_pkg'}
+[0.098083] (-) TimerEvent: {}
+[0.198691] (-) TimerEvent: {}
+[0.299462] (-) TimerEvent: {}
+[0.400135] (-) TimerEvent: {}
+[0.500736] (-) TimerEvent: {}
+[0.601321] (-) TimerEvent: {}
+[0.701950] (-) TimerEvent: {}
+[0.802520] (-) TimerEvent: {}
+[0.903130] (-) TimerEvent: {}
+[1.003711] (-) TimerEvent: {}
+[1.104385] (-) TimerEvent: {}
+[1.205316] (-) TimerEvent: {}
+[1.306126] (-) TimerEvent: {}
+[1.406787] (-) TimerEvent: {}
+[1.507376] (-) TimerEvent: {}
+[1.607994] (-) TimerEvent: {}
+[1.708568] (-) TimerEvent: {}
+[1.809143] (-) TimerEvent: {}
+[1.909708] (-) TimerEvent: {}
+[2.010271] (-) TimerEvent: {}
+[2.110881] (-) TimerEvent: {}
+[2.211494] (-) TimerEvent: {}
+[2.312068] (-) TimerEvent: {}
+[2.412685] (-) TimerEvent: {}
+[2.513347] (-) TimerEvent: {}
+[2.596710] (my_mav_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/raft/Rpi_Ard_ser/build/my_mav_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/raft/Rpi_Ard_ser/build/my_mav_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'raft', 'SSH_CLIENT': '192.168.1.106 50746 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/raft', 'OLDPWD': '/home/raft', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'th_TH.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/raft/Rpi_Ard_ser/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'raft', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'th_TH.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/raft/Rpi_Ard_ser/install/my_mav_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'PWD': '/home/raft/Rpi_Ard_ser/build/my_mav_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.106 50746 192.168.1.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/raft/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg:/home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.613538] (-) TimerEvent: {}
+[2.714270] (-) TimerEvent: {}
+[2.814884] (-) TimerEvent: {}
+[2.915481] (-) TimerEvent: {}
+[3.016139] (-) TimerEvent: {}
+[3.116761] (-) TimerEvent: {}
+[3.217334] (-) TimerEvent: {}
+[3.317892] (-) TimerEvent: {}
+[3.418475] (-) TimerEvent: {}
+[3.519129] (-) TimerEvent: {}
+[3.619776] (-) TimerEvent: {}
+[3.720387] (-) TimerEvent: {}
+[3.751955] (my_mav_pkg) StdoutLine: {'line': b'running develop\n'}
+[3.820554] (-) TimerEvent: {}
+[3.921171] (-) TimerEvent: {}
+[4.021726] (-) TimerEvent: {}
+[4.122298] (-) TimerEvent: {}
+[4.222908] (-) TimerEvent: {}
+[4.323478] (-) TimerEvent: {}
+[4.424059] (-) TimerEvent: {}
+[4.509747] (my_mav_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.510321] (my_mav_pkg) StdoutLine: {'line': b'creating my_mav_pkg.egg-info\n'}
+[4.510745] (my_mav_pkg) StdoutLine: {'line': b'writing my_mav_pkg.egg-info/PKG-INFO\n'}
+[4.511786] (my_mav_pkg) StdoutLine: {'line': b'writing dependency_links to my_mav_pkg.egg-info/dependency_links.txt\n'}
+[4.512387] (my_mav_pkg) StdoutLine: {'line': b'writing entry points to my_mav_pkg.egg-info/entry_points.txt\n'}
+[4.513051] (my_mav_pkg) StdoutLine: {'line': b'writing requirements to my_mav_pkg.egg-info/requires.txt\n'}
+[4.513575] (my_mav_pkg) StdoutLine: {'line': b'writing top-level names to my_mav_pkg.egg-info/top_level.txt\n'}
+[4.514388] (my_mav_pkg) StdoutLine: {'line': b"writing manifest file 'my_mav_pkg.egg-info/SOURCES.txt'\n"}
+[4.524259] (-) TimerEvent: {}
+[4.527085] (my_mav_pkg) StdoutLine: {'line': b"reading manifest file 'my_mav_pkg.egg-info/SOURCES.txt'\n"}
+[4.530268] (my_mav_pkg) StdoutLine: {'line': b"writing manifest file 'my_mav_pkg.egg-info/SOURCES.txt'\n"}
+[4.536808] (my_mav_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[4.537602] (my_mav_pkg) StdoutLine: {'line': b'Creating /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my-mav-pkg.egg-link (link to .)\n'}
+[4.541246] (my_mav_pkg) StdoutLine: {'line': b'Installing send_arduino script to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/my_mav_pkg\n'}
+[4.542468] (my_mav_pkg) StdoutLine: {'line': b'\n'}
+[4.543009] (my_mav_pkg) StdoutLine: {'line': b'Installed /home/raft/Rpi_Ard_ser/build/my_mav_pkg\n'}
+[4.543530] (my_mav_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[4.543967] (my_mav_pkg) StdoutLine: {'line': b'creating /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index\n'}
+[4.544424] (my_mav_pkg) StdoutLine: {'line': b'creating /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index/resource_index\n'}
+[4.544969] (my_mav_pkg) StdoutLine: {'line': b'creating /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index/resource_index/packages\n'}
+[4.545481] (my_mav_pkg) StdoutLine: {'line': b'symbolically linking /home/raft/Rpi_Ard_ser/build/my_mav_pkg/resource/my_mav_pkg -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index/resource_index/packages\n'}
+[4.546160] (my_mav_pkg) StdoutLine: {'line': b'symbolically linking /home/raft/Rpi_Ard_ser/build/my_mav_pkg/package.xml -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg\n'}
+[4.547029] (my_mav_pkg) StdoutLine: {'line': b'creating /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/launch\n'}
+[4.547793] (my_mav_pkg) StdoutLine: {'line': b'symbolically linking /home/raft/Rpi_Ard_ser/build/my_mav_pkg/my_mav_pkg/launch/realsense_ws.launch.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/launch\n'}
+[4.624552] (-) TimerEvent: {}
+[4.676040] (my_mav_pkg) CommandEnded: {'returncode': 0}
+[4.725338] (-) TimerEvent: {}
+[4.762157] (my_mav_pkg) JobEnded: {'identifier': 'my_mav_pkg', 'rc': 0}
+[4.764817] (-) EventReactorShutdown: {}

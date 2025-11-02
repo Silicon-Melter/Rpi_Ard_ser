@@ -1,0 +1,40 @@
+running develop
+Removing /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my-mav-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/my_mav_pkg/my_mav_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_mav_pkg/my_mav_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_mav_pkg/my_mav_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_mav_pkg/my_mav_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_mav_pkg/my_mav_pkg.egg-info/top_level.txt
+reading manifest file '../../build/my_mav_pkg/my_mav_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_mav_pkg/my_mav_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build
+creating /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib
+creating /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg
+copying my_mav_pkg/pose_listener.py -> /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg
+copying my_mav_pkg/__init__.py -> /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg
+copying my_mav_pkg/send_arduino.py -> /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg
+copying my_mav_pkg/camera_pusblisher.py -> /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg
+running install
+running install_lib
+creating /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg
+copying /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg/pose_listener.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg
+copying /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg/__init__.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg
+copying /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg/send_arduino.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg
+copying /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg/camera_pusblisher.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg
+byte-compiling /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg/pose_listener.py to pose_listener.cpython-310.pyc
+byte-compiling /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg/send_arduino.py to send_arduino.cpython-310.pyc
+byte-compiling /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg/camera_pusblisher.py to camera_pusblisher.cpython-310.pyc
+running install_data
+copying resource/my_mav_pkg -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg
+copying my_mav_pkg/launch/realsense_ws.launch.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/launch
+running install_egg_info
+Copying ../../build/my_mav_pkg/my_mav_pkg.egg-info to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_publisher script to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/my_mav_pkg
+Installing send_arduino script to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/my_mav_pkg
+writing list of installed files to '/home/raft/Rpi_Ard_ser/build/my_mav_pkg/install.log'

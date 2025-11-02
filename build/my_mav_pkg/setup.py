@@ -1,1 +1,0 @@
-/home/raft-controller/Rpi_Ard_ser/src/my_mav_pkg/setup.py

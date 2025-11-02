@@ -23,7 +23,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+		'send_arduino = my_mav_pkg.send_arduino:main',
+        'camera_publisher = my_mav_pkg.camera_publisher:main',
             # (no nodes needed for this)
         ],
     },
 )
+

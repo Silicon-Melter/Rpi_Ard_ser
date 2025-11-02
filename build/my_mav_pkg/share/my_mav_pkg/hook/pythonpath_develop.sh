@@ -1,3 +1,3 @@
 # generated from colcon_core/shell/template/hook_prepend_value.sh.em
 
-_colcon_prepend_unique_value PYTHONPATH "/home/raft-controller/Rpi_Ard_ser/build/my_mav_pkg"
+_colcon_prepend_unique_value PYTHONPATH "/home/raft/Rpi_Ard_ser/build/my_mav_pkg"

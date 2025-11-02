@@ -1,0 +1,44 @@
+[3.004s] Invoking command in '/home/raft/Rpi_Ard_ser/build/my_mav_pkg': PYTHONPATH=/home/raft/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build
+[4.194s] running develop
+[5.006s] Removing /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my-mav-pkg.egg-link (link to .)
+[5.138s] Invoked command in '/home/raft/Rpi_Ard_ser/build/my_mav_pkg' returned '0': PYTHONPATH=/home/raft/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build
+[5.146s] Invoking command in '/home/raft/Rpi_Ard_ser/src/my_mav_pkg': PYTHONPATH=/home/raft/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_mav_pkg build --build-base /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build install --record /home/raft/Rpi_Ard_ser/build/my_mav_pkg/install.log --single-version-externally-managed install_data --force
+[6.232s] running egg_info
+[6.235s] writing ../../build/my_mav_pkg/my_mav_pkg.egg-info/PKG-INFO
+[6.236s] writing dependency_links to ../../build/my_mav_pkg/my_mav_pkg.egg-info/dependency_links.txt
+[6.237s] writing entry points to ../../build/my_mav_pkg/my_mav_pkg.egg-info/entry_points.txt
+[6.238s] writing requirements to ../../build/my_mav_pkg/my_mav_pkg.egg-info/requires.txt
+[6.239s] writing top-level names to ../../build/my_mav_pkg/my_mav_pkg.egg-info/top_level.txt
+[6.247s] reading manifest file '../../build/my_mav_pkg/my_mav_pkg.egg-info/SOURCES.txt'
+[6.251s] writing manifest file '../../build/my_mav_pkg/my_mav_pkg.egg-info/SOURCES.txt'
+[6.251s] running build
+[6.252s] running build_py
+[6.253s] creating /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build
+[6.253s] creating /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib
+[6.254s] creating /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg
+[6.254s] copying my_mav_pkg/pose_listener.py -> /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg
+[6.255s] copying my_mav_pkg/__init__.py -> /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg
+[6.255s] copying my_mav_pkg/send_arduino.py -> /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg
+[6.256s] copying my_mav_pkg/camera_pusblisher.py -> /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg
+[6.257s] running install
+[6.258s] running install_lib
+[6.261s] creating /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg
+[6.262s] copying /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg/pose_listener.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg
+[6.263s] copying /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg/__init__.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg
+[6.264s] copying /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg/send_arduino.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg
+[6.264s] copying /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build/lib/my_mav_pkg/camera_pusblisher.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg
+[6.267s] byte-compiling /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg/pose_listener.py to pose_listener.cpython-310.pyc
+[6.271s] byte-compiling /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg/__init__.py to __init__.cpython-310.pyc
+[6.272s] byte-compiling /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg/send_arduino.py to send_arduino.cpython-310.pyc
+[6.276s] byte-compiling /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg/camera_pusblisher.py to camera_pusblisher.cpython-310.pyc
+[6.279s] running install_data
+[6.280s] copying resource/my_mav_pkg -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index/resource_index/packages
+[6.281s] copying package.xml -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg
+[6.281s] copying my_mav_pkg/launch/realsense_ws.launch.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/launch
+[6.288s] running install_egg_info
+[6.296s] Copying ../../build/my_mav_pkg/my_mav_pkg.egg-info to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my_mav_pkg-0.0.0-py3.10.egg-info
+[6.303s] running install_scripts
+[6.383s] Installing camera_publisher script to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/my_mav_pkg
+[6.383s] Installing send_arduino script to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/my_mav_pkg
+[6.385s] writing list of installed files to '/home/raft/Rpi_Ard_ser/build/my_mav_pkg/install.log'
+[6.502s] Invoked command in '/home/raft/Rpi_Ard_ser/src/my_mav_pkg' returned '0': PYTHONPATH=/home/raft/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_mav_pkg build --build-base /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build install --record /home/raft/Rpi_Ard_ser/build/my_mav_pkg/install.log --single-version-externally-managed install_data --force
