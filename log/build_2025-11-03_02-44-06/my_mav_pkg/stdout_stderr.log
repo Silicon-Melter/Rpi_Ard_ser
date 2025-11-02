@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing my_mav_pkg.egg-info/PKG-INFO
+writing dependency_links to my_mav_pkg.egg-info/dependency_links.txt
+writing entry points to my_mav_pkg.egg-info/entry_points.txt
+writing requirements to my_mav_pkg.egg-info/requires.txt
+writing top-level names to my_mav_pkg.egg-info/top_level.txt
+reading manifest file 'my_mav_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_mav_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my-mav-pkg.egg-link (link to .)
+Installing camera_publisher script to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/my_mav_pkg
+Installing send_arduino script to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/my_mav_pkg
+
+Installed /home/raft/Rpi_Ard_ser/build/my_mav_pkg
+running symlink_data
+symbolically linking /home/raft/Rpi_Ard_ser/build/my_mav_pkg/resource/my_mav_pkg -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/raft/Rpi_Ard_ser/build/my_mav_pkg/package.xml -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg
+symbolically linking /home/raft/Rpi_Ard_ser/build/my_mav_pkg/my_mav_pkg/launch/realsense_ws.launch.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/launch

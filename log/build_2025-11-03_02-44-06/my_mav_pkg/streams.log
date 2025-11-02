@@ -1,0 +1,21 @@
+[3.481s] Invoking command in '/home/raft/Rpi_Ard_ser/build/my_mav_pkg': PYTHONPATH=/home/raft/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build --no-deps symlink_data --force
+[4.730s] running develop
+[5.595s] running egg_info
+[5.596s] writing my_mav_pkg.egg-info/PKG-INFO
+[5.597s] writing dependency_links to my_mav_pkg.egg-info/dependency_links.txt
+[5.598s] writing entry points to my_mav_pkg.egg-info/entry_points.txt
+[5.598s] writing requirements to my_mav_pkg.egg-info/requires.txt
+[5.599s] writing top-level names to my_mav_pkg.egg-info/top_level.txt
+[5.608s] reading manifest file 'my_mav_pkg.egg-info/SOURCES.txt'
+[5.612s] writing manifest file 'my_mav_pkg.egg-info/SOURCES.txt'
+[5.618s] running build_ext
+[5.619s] Creating /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages/my-mav-pkg.egg-link (link to .)
+[5.623s] Installing camera_publisher script to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/my_mav_pkg
+[5.623s] Installing send_arduino script to /home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/my_mav_pkg
+[5.625s] 
+[5.625s] Installed /home/raft/Rpi_Ard_ser/build/my_mav_pkg
+[5.626s] running symlink_data
+[5.626s] symbolically linking /home/raft/Rpi_Ard_ser/build/my_mav_pkg/resource/my_mav_pkg -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/ament_index/resource_index/packages
+[5.627s] symbolically linking /home/raft/Rpi_Ard_ser/build/my_mav_pkg/package.xml -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg
+[5.628s] symbolically linking /home/raft/Rpi_Ard_ser/build/my_mav_pkg/my_mav_pkg/launch/realsense_ws.launch.py -> /home/raft/Rpi_Ard_ser/install/my_mav_pkg/share/my_mav_pkg/launch
+[5.769s] Invoked command in '/home/raft/Rpi_Ard_ser/build/my_mav_pkg' returned '0': PYTHONPATH=/home/raft/Rpi_Ard_ser/build/my_mav_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raft/Rpi_Ard_ser/install/my_mav_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raft/Rpi_Ard_ser/build/my_mav_pkg/build --no-deps symlink_data --force

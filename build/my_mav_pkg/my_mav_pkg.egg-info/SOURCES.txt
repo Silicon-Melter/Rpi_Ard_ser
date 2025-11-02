@@ -12,8 +12,12 @@ my_mav_pkg/__init__.py
 my_mav_pkg/camera_publisher.py
 my_mav_pkg/pose_listener.py
 my_mav_pkg/send_arduino.py
+my_mav_pkg.egg-info/PKG-INFO
+my_mav_pkg.egg-info/SOURCES.txt
+my_mav_pkg.egg-info/dependency_links.txt
+my_mav_pkg.egg-info/entry_points.txt
+my_mav_pkg.egg-info/requires.txt
+my_mav_pkg.egg-info/top_level.txt
+my_mav_pkg.egg-info/zip-safe
 my_mav_pkg/launch/realsense_ws.launch.py
 resource/my_mav_pkg
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
